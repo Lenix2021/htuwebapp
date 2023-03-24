@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+    padding: 0;
+   /* background:url("../ht.jpg");
+    background-size: cover;
+    */
+
+}
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+
+}
+.title h1{
+    margin: 0px;
+    padding: 0px;
+    color:#262626;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:  serif;
+}
+.head{
+    padding: 0%;
+    margin: 0%;
+}
+.head p
+{
+    color:#262626;
+    font-size: 18px;
+    font-family:  serif;
+    text-align: center;
+
+}
+.container
+{
+    width:60%;
+    height: 400px;
+    background:#fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0, 0,0,.5);
+
+}
+ .container .left
+{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url("../img/ht.jpg");
+    background-size: cover ;
+    box-sizing: border-box;
+    
+}
+.container .right
+{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+
+/*For the nav*/
+nav
+{
+    display: block;
+    z-index: 100;
+    width: 100vw;
+    height: max-content;
+    background-color:rgb(30, 65, 182);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   position: fixed;
+   
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+ li a
+{
+    text-decoration:none;
+}
+ul a{
+    color: white;
+}
+
+ ul a:active
+{
+ color:red;
+ border-bottom: 2px solid red;
+}
+
+ul a:hover
+{
+    color: red;
+}
+
+nav input[type="button"]
+{
+    background-color:white;
+    color:rgb(30, 65, 182);
+    border-radius: 20px;
+    border-color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav input[type="button"]:hover
+{
+    background-color: rgb(177, 24, 57);;
+    color: white;
+    border-color: white;
+
+}
+
+/* Login in form styles*/
+
+.formBox
+{
+    width: 90%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+
+}
+.formBox p, .select_idt{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    color: #a6af13;
+
+}
+
+.formBox h1{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    color: #a6af13;
+
+}
+
+
+.formBox input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.formBox input[type="text"],
+.formBox input[type="password"]
+{
+    border: none;
+    border-bottom: 2px solid  #4c057c;
+    outline: none;
+    height: 40px;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus
+{
+    border-bottom: 2px solid #a6af13;
+     
+
+}
+.formBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #4c057c;
+    cursor: pointer;
+    border-radius:30px;
+}
+.formBox input[type="submit"]:hover
+{
+    background: #a6af13; 
+}
+.formBox a 
+{
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.forms
+{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: max-content;
+    background: #fff;
+
+}
+.forms p {
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+   color: rgb(30, 65, 182);
+    margin-left: 350px;
+    margin-top: 5px;
+
+}
+
+.forms h1{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+.forms input{
+   
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.forms input[type="text"],
+.forms input[type="password"]
+{
+    margin-left: 350px;
+    border: none;
+    border-bottom: 2px solid rgb(30, 65, 182);
+    outline: none;
+    height: 40px;
+}
+
+.forms input[type="text"]:focus,
+.forms input[type="password"]:focus
+{
+    border-bottom: 2px solid #a6af13;
+}
+.forms input[type="submit"]
+{   width: 80px;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #4c057c;
+    cursor: pointer;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+.forms input[type="submit"]:hover
+{
+    background: #a6af13; 
+    
+}
+.forms a 
+{
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+}
+.select_idt
+{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    color: rgb(30, 65, 182);
+    margin-left: 350px;
+}
+.opt{
+    margin-top: 20px;
+    margin-left: 350px;
+    border: none;
+    border-bottom: 2px solid rgb(30, 65, 182);
+    outline: none;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.opt select:hover
+{
+    border-bottom:2px solid #a6af13 ;
+}
+/*fieldset
+{
+    width: 300px;
+   padding-right: 200px;
+   padding-left: 0px;
+   margin-left: 300px;
+}
+*/
+.file
+{
+    justify-content: center;
+    border-color:  rgb(30, 65, 182);
+}
+
+fieldset
+{
+    padding-top: 20px;
+    border-color:  rgb(30, 65, 182);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius:80px ;
+}
+legend
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(30, 65, 182); 
+    padding-left: 50px;
+}
+
+th, td {
+    text-align: center;
+}
+
+
+table {
+    margin: auto;
+  }

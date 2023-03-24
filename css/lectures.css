@@ -1,0 +1,191 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    
+}
+
+nav
+{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color:rgb(19, 19, 143);
+    color: white;
+    
+    
+}
+
+nav h1
+{
+    padding-left: 10px;
+    margin-right: 200px;
+}
+
+nav span
+{
+  color:white;
+  padding-left: 10px;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul li
+{
+    list-style: none;
+    padding-left: 20px;
+   
+  
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: white;  
+}
+
+nav ul li a:hover
+{
+    text-decoration: none;
+    color: white;  
+    opacity: 10px;
+}
+
+nav input
+{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    height: 30px;
+    align-self: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 30px;
+    color: navy;   
+}
+
+
+
+.popups
+{
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    height: fit-content;
+    box-shadow: 15px 10px 10px 10px #738276;
+    
+}
+
+.ipt 
+{   border: none;
+    width: 350px;
+    height: 30px;
+    border: 2px solid rgb(216, 213, 213);
+    background-color:rgb(216, 213, 213);
+    border-radius: 10px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   
+}
+.ipt input[type="text"]
+{
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color:rgb(216, 213, 213);
+    color: black;
+    height: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ipt input[type="text"]::placeholder
+{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.ipt input[type="password"]
+{
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color:rgb(216, 213, 213);
+    color: black;
+    height: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ipt input[type="password"]::placeholder
+{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.ipt select
+{
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color:rgb(216, 213, 213);
+    color: black;
+    height: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.ipts 
+{   border: none;
+    width: 350px;
+    height: 40px;
+    border: 2px solid rgb(216, 213, 213);
+    background-color:rgb(216, 213, 213);
+    border-radius: 10px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   
+}
+
+.save input[type="submit"]
+{
+    background-color: navy;
+    border: none;
+    outline: none;
+    color: white;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.save input[type="submit"]:hover
+{
+    background-color:rgb(216, 213, 213);
+    color: black;
+}
