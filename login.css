@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.group
+{
+    width:60%;
+    height: 500px;
+    background:#fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 50px 20px 90px rgb(231, 228, 228);
+    margin-top: 50px;
+}
+
+.logo
+{    display: flex;
+    justify-content: center;
+    align-self: center;
+    float: left;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    padding-top: -30px;
+    background-color:whitesmoke; /* Set your desired background color */
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); /* Set the shadow properties */
+    overflow: visible;
+}
+
+.logo img
+{
+    width: 2500px;
+    height: 600px;
+    padding-right: 300px;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+.seccond
+{   
+    float: right;
+    width: 50%;
+    height: 430px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.headings
+{   
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+.headings h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    font-size: 20px; 
+    text-align: left;
+    word-spacing: 2px;
+    
+}
+
+.headings h3
+{
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 60;
+    font-size: 14px;
+    text-align: left;
+   
+} 
+
+.username
+{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: 25vw;
+    height: 30px;
+    border-radius: 2px;
+    margin-top: -10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1; /* Set your desired background color */
+    margin-bottom: 20px;
+}
+
+p
+{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 40;
+}
+.username input[type="text"]
+{
+    border: none;
+    outline: none;
+    width: 20vw;
+    margin-left: 15px;
+    background-color: #f1f1f1; /* Set your desired background color */   
+}
+
+.username:focus-within {
+    border-color: rgb(184, 140, 226); /* Change the border color of the div when the input is in focus */
+}
+  
+
+.username:hover
+{
+    border-color:rgb(184, 140, 226);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); /* Set the shadow properties */
+}
+
+
+.password:focus-within {
+    border-color: rgb(184, 140, 226); /* Change the border color of the div when the input is in focus */
+}
+  
+
+.password:hover
+{
+    border-color:rgb(184, 140, 226);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); /* Set the shadow properties */
+}
+
+.username:focus-within + #message {
+    color: rgb(184, 140, 226);
+  }
+
+
+  .blue-color {
+    color: rgb(150, 63, 231);
+  }
+
+.password:focus-within + #message{
+    color: rgb(184, 140, 226);
+}
+
+.username img
+{
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.password
+{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: 25vw;
+    height: 30px;
+    border-radius: 2px;
+    margin-top: -10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1; /* Set your desired background color */
+    margin-bottom: 20px;
+}
+
+.password img
+{
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.password input[type="password"]
+{
+    border: none;
+    outline: none;
+    width: 20vw;
+    margin-left: 15px;
+    background-color: #f1f1f1; /* Set your desired background color */   
+}
+
+.showpwd
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.showpwd input[type="checkbox"]
+{
+    margin-top: 5px;
+    transform: scale(2);
+    border-color: red;
+}
+
+.login input[type="submit"]
+{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 120px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background:#4c057c;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.login input[type="submit"]:hover
+{
+    background: red;
+}
+
+.eror{
+    width: 300px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-bottom: -20px;
+    height: 20px;
+}

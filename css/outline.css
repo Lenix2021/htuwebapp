@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-header {
+    background-color: #6d7fcc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-fields {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table th,
+.form-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-actions input[type="submit"] {
+    background-color: #6d7fcc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#zoom-in,
+#zoom-out,
+#prev-page,
+#next-page 
+{
+  background-color: #6d7fcc;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+}
+
+#zoom-in:hover,
+#zoom-out:hover,
+#prev-page:hover,
+#next-page:hover 
+{
+  background-color: red;
+  cursor: pointer;
+}
+.highlight {
+    position: absolute;
+    border-radius: 3px;
+    pointer-events: none;
+  }
+  
+  .comment-button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #6d7fcc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .comment-text {
+    margin-top: 5px;
+  }
+  
+  .highlight-rect {
+    position: absolute;
+    border: 2px solid #ff0;
+    border-radius: 3px;
+    pointer-events: none;
+  }
+  
+  .highlight-rect:hover {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+
